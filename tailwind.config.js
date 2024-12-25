@@ -2,7 +2,11 @@
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      padding: {
+        '5/6': '83.3333333%'
+      },
+    },
   },
   plugins: [],
 }
